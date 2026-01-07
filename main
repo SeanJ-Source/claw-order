@@ -10,6 +10,186 @@
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     rel="stylesheet"
   />
+<style>
+/* =====================
+   BASE RESET & SAFETY
+===================== */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* =====================
+   TYPOGRAPHY
+===================== */
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, sans-serif;
+    line-height: 1.6;
+    color: #212529;
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.2;
+}
+
+/* =====================
+   NAVBAR
+===================== */
+
+.navbar-brand {
+    font-size: 1.25rem;
+    letter-spacing: 0.2px;
+}
+
+.navbar .nav-link {
+    font-weight: 500;
+}
+
+
+  
+
+
+
+/* =====================
+   HERO SECTION
+===================== */
+
+section:first-of-type {
+    padding-top: clamp(3rem, 6vw, 5rem);
+    padding-bottom: clamp(3rem, 6vw, 5rem);
+}
+
+section:first-of-type h1 {
+    max-width: 900px;
+    margin-inline: auto;
+}
+
+section:first-of-type p {
+    max-width: 720px;
+    margin-inline: auto;
+}
+
+/* =====================
+   FEATURES
+===================== */
+
+#features .card {
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#features .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* =====================
+   PRICING
+===================== */
+
+#pricing .card {
+    border-radius: 16px;
+}
+
+#pricing h1 {
+    font-size: clamp(2.5rem, 6vw, 3.5rem);
+}
+
+#pricing ul li {
+    margin-bottom: 0.75rem;
+}
+
+/* =====================
+   TESTIMONIALS
+===================== */
+
+section:not(#features):not(#pricing):not(#faq) .card {
+    border-radius: 14px;
+}
+
+/* =====================
+   FAQ
+===================== */
+
+#faq .accordion-button {
+    font-weight: 500;
+}
+
+#faq .accordion-item {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* =====================
+   FOOTER
+===================== */
+
+footer {
+    font-size: 0.95rem;
+}
+
+footer small {
+    opacity: 0.8;
+}
+
+/* =====================
+   SPACING SAFETY
+===================== */
+
+section {
+    scroll-margin-top: 90px;
+}
+
+/* =====================
+   MOBILE TWEAKS
+===================== */
+
+@media (max-width: 576px) {
+
+    .navbar-brand {
+        font-size: 1.1rem;
+    }
+
+    h1.display-5 {
+        font-size: 2rem;
+    }
+
+    .btn-lg {
+        padding: 0.75rem 1.25rem;
+        font-size: 1rem;
+    }
+
+    #pricing .card {
+        margin-inline: 0.5rem;
+    }
+}
+
+/* =====================
+   LARGE SCREENS
+===================== */
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+
+
+
+ 
+
+</style>
 </head>
 
 <body class="bg-light">
