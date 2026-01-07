@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PremiumHub – $99/Year Membership</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+</head>
+
+<body class="bg-light">
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#"><img src="claw & order.png" alt="Claw and Order" height="100px"></a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-2">
+        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+        <li class="nav-item">
+          <a class="btn btn-outline-primary px-4" href="#">Log In</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- spacing for fixed navbar -->
+<div style="height: 72px;"></div>
+
+<!-- ================= HERO ================= -->
+<section class="py-5 text-center bg-white">
+  <div class="container">
+    <h1 class="fw-bold display-5">
+      One Membership. Everything Included.
+    </h1>
+    <p class="lead mt-3 mb-4">
+      Get Priority Customer Support, Exclusive Deals, Customizable Bases and more 
+      for just <strong>$99 per year</strong>.
+    </p>
+    <a href="#pricing" class="btn btn-primary btn-lg px-5">
+      Get Started
+    </a>
+  </div>
+</section>
+
+<!-- ================= FEATURES ================= -->
+<section id="features" class="py-5">
+  <div class="container">
+    <div class="row text-center mb-4">
+      <h2 class="fw-bold">What You Get</h2>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Priority Support</h5>
+            <p class="card-text">
+              Get fast, direct support from our team whenever you need help.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Exclusive Deals</h5>
+            <p class="card-text">
+              A new replacement scratcher sent to you every 3 months at no charge, or sooner if needed.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Customizable Bases</h5>
+            <p class="card-text">
+              Personalize your base with different wood finishes and an optional plaque displaying your furry friend’s name.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRICING ================= -->
+<section id="pricing" class="py-5 bg-white">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4">Simple Pricing</h2>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-lg border-primary">
+          <div class="card-body p-4">
+            <h4 class="fw-bold">Annual Membership</h4>
+            <h1 class="display-4 fw-bold my-3">$99/Year</h1>
+            <p class="text-muted">billed annually</p>
+
+            <ul class="list-unstyled text-start my-4">
+              <li>✔ Customizable bases</li>
+              <li>✔ Replacement scratchers 4x a year*</li>
+              <li>✔ Priority support</li>
+              <li>✔ Cancel anytime</li>
+            </ul>
+
+            <a href="signup.html" class="btn btn-primary btn-lg w-100">
+              Start Membership
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-4">What Members Say</h2>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <p>
+              “A solid, well-built scratching post for my cat at an affordable price.”
+            </p>
+            <strong>Alex - Bayou La Batre, AL</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <p>
+              “I needed a replacement scratcher sooner than scheduled, and they shipped it out quickly.”
+            </p>
+            <strong>Jordan - Frisco, TX</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <p>
+              “I buy from them largely because of their dedication to reducing waste.”
+            </p>
+            <strong>Taylor - Baltimore, MD</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="faq" class="py-5 bg-white">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-4">Frequently Asked Questions</h2>
+
+    <div class="accordion" id="faqAccordion">
+
+      <!-- FAQ 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faqOne"
+            aria-expanded="false"
+            aria-controls="faqOne"
+          >
+            Can I cancel my membership?
+          </button>
+        </h2>
+
+        <div
+          id="faqOne"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingOne"
+          data-bs-parent="#faqAccordion"
+        >
+          <div class="accordion-body">
+            Yes, you may cancel your membership at anytime.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faqTwo"
+            aria-expanded="false"
+            aria-controls="faqTwo"
+          >
+            Is this a one-time payment?
+          </button>
+        </h2>
+
+        <div
+          id="faqTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingTwo"
+          data-bs-parent="#faqAccordion"
+        >
+          <div class="accordion-body">
+            The membership is billed annually at $99/year or $8.25/month.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faqThree"
+            aria-expanded="false"
+            aria-controls="faqThree"
+          >
+            What do I get with the membership?
+          </button>
+        </h2>
+
+        <div
+          id="faqThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingThree"
+          data-bs-parent="#faqAccordion"
+        >
+          <div class="accordion-body">
+            You get a new scratcher replacement for your base every 3 months or sooner if needed, along with exclusive discounts and the option to customize your bases.
+          </div>
+        </div>
+      </div>
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faqFour"
+            aria-expanded="false"
+            aria-controls="faqFour"
+          >
+            How much is a replacement scratcher with no membership?
+          </button>
+        </h2>
+
+        <div
+          id="faqFour"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingFour"
+          data-bs-parent="#faqAccordion"
+        >
+          <div class="accordion-body">
+            $5.
+          </div>
+        </div>
+      </div>
+
+
+
+
+       <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faqFive"
+            aria-expanded="false"
+            aria-controls="faqFive"
+          >
+            Are the scratchers really used from old cardboard?
+          </button>
+        </h2>
+
+        <div
+          id="faqFive"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingFive"
+          data-bs-parent="#faqAccordion"
+        >
+          <div class="accordion-body">
+            We maintain Waste Diversion Agreements with multiple companies to collect and repurpose their scrap cardboard. This provides the raw materials used to manufacture our scratchers, allowing us to offer them at a lower cost. At the same time, this process helps each partner company reduce its overall carbon footprint.
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faqSix"
+            aria-expanded="false"
+            aria-controls="faqSix"
+          >
+            Where is the company from?
+          </button>
+        </h2>
+
+        <div
+          id="faqSix"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingSix"
+          data-bs-parent="#faqAccordion"
+        >
+          <div class="accordion-body">
+            We are a U.S.-based company, proudly manufacturing locally in Silicon Valley, California.
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="py-4 text-center text-muted bg-light">
+  <div class="container">
+    <small>© 2026 <img src="claw & order.png" alt="Claw and Order" height="50px">
+ All rights reserved.</small>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
